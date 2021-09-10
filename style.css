@@ -20,6 +20,7 @@
   --inputField: inset 8px 8px 38px #ededed, inset -8px -8px 38px #ffffff;
 
   --buttonColor: black;
+  --contactLink: #e0ab8b;
 }
 
 body * {
@@ -144,7 +145,7 @@ h6 {
 }
 
 #navigation a {
-  color: white;
+  color: var(--contactLink);
 }
 
 #navigation li {
